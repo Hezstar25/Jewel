@@ -21,7 +21,7 @@ h3 {
 }
 
 header {
-    /* position: fixed; */
+    position: fixed;
     top: 10px;
     left: 150px;
     width: 80%;
@@ -35,7 +35,7 @@ header {
 }
 
 header {
-    /* position: fixed; */
+    position: fixed;
     top: 10px;
 
     left: 50%;
@@ -68,11 +68,9 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /* position:fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* left:100px; */
 
 
 }
@@ -160,7 +158,6 @@ main {
 
 .hero-wrapper {
     display: flex;
-    position: fixed;
     align-items: center;
     justify-content: space-between;
     gap: 60px;
