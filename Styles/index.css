@@ -68,6 +68,7 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    position:fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,6 +159,7 @@ main {
 
 .hero-wrapper {
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     gap: 60px;
