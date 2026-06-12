@@ -20,7 +20,7 @@ h3 {
 
 }
 
-header {
+/* header {
     position: fixed;
     top: 10px;
     left: 150px;
@@ -32,7 +32,7 @@ header {
     justify-content: space-between;
     height: 60px;
     border-radius: 50px;
-}
+} */
 
 header {
     position: fixed;
@@ -675,28 +675,4 @@ footer h3 {
     margin-top: 90px;
     color: gray;
     font-size: 10px;
-}
-
-@media(max-width:500px) {
-
-    /* nav,
-    #head {
-        flex-direction: column;
-        padding: 15px;
-        gap: 15px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    } */
-    nav {
-        display: flex;
-        margin: 15px 0;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-        color: rgb(181, 33, 33);
-    }
 }
